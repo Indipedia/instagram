@@ -1,160 +1,127 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+import random
 
-# C extensions
-*.so
+def generate_instagram_bio(name, nickname,):
+    adjectives = ['𝔻𝕒𝕟𝕔𝕚𝕟𝕘','ᑕᖇᗩᘔY','ᗪIᖴᖴEᖇEᑎT','ᗷEᗩᑌTIᖴᑌᒪ','ᖴᗩᔕᕼIOᑎ','TᖇᗩᐯEᒪ','ᗰᑌᔕIᑕ','TEᑕᕼ','ᑭᕼOTOGᖇᗩᑭᕼY','ᗪEᔕIGᑎ','ᗷOOKᔕ','ᗩᖇT','ᔕᑭOᖇTᔕ','E᙭ᑭᒪOᖇIᑎG','ᑕOᗪIᑎG','ᖴᗩᔕᕼIOᑎ','TEᑕᕼ','ᑭᕼOTOGᖇᗩᑭᕼY','ᗪEᔕIGᑎ','ᗷOOKᔕ','ᗩᖇT','ᔕᑭOᖇTᔕ','E᙭ᑭᒪOᖇIᑎG','ᑕOᗪIᑎG','ᖴᗩᔕᕼIOᑎ','TEᑕᕼ','ᑭᕼOTOGᖇᗩᑭᕼY','ᗪEᔕIGᑎ','ᗷOOKᔕ','ᗩᖇT','ᔕᑭOᖇTᔕ','E᙭ᑭᒪOᖇIᑎG','ᑕOᗪIᑎG','ᖴᗩᔕᕼIOᑎ','TEᑕᕼ','ᑭᕼOTOGᖇᗩᑭᕼY','ᗪEᔕIGᑎ','ᗷOOKᔕ','ᗩᖇT','ᔕᑭOᖇTᔕ','E᙭ᑭᒪOᖇIᑎG','ᑕOᗪIᑎG','ᖴᗩᔕᕼIOᑎ','TEᑕᕼ','ᑭᕼOTOGᖇᗩᑭᕼY','ᗪEᔕIGᑎ','ᗷOOKᔕ',
+    '𝔻𝕖𝕤𝕚𝕘𝕟𝕚𝕟𝕘',
+    '𝔹𝕖𝕒𝕦𝕥𝕪',
+    '𝔽𝕒𝕤𝕙𝕚𝕠𝕟',
+    '𝕋𝕣𝕒𝕧𝕖𝕝',
+    '𝕄𝕦𝕤𝕚𝕔',
+    '𝕋𝕖𝕔𝕙',
+    'ℙ𝕙𝕠𝕥𝕠𝕘𝕣𝕒𝕡𝕙𝕪',
+    '𝔻𝕖𝕤𝕚𝕘𝕟',
+    '𝔹𝕠𝕠𝕜𝕤',
+    '𝔸𝕣𝕥',
+    '𝕊𝕡𝕠𝕣𝕥𝕤',
+    '𝔼𝕩𝕡𝕝𝕠𝕣𝕚𝕟𝕘',
+    'ℂ𝕠𝕕𝕚𝕟𝕘',
+    '𝔽𝕒𝕤𝕙𝕚𝕠𝕟',
+    'ℙ𝕙𝕠𝕥𝕠𝕘𝕣𝕒𝕡𝕙𝕪',
+    '𝔻𝕖𝕤𝕚𝕘𝕟',
+    '𝔹𝕠𝕠𝕜𝕤',
+    '𝔸𝕣𝕥',
+    '𝕊𝕡𝕠𝕣𝕥𝕤',
+    '𝔼𝕩𝕡𝕝𝕠𝕣𝕚𝕟𝕘',
+    'ℂ𝕠𝕕𝕚𝕟𝕘',
+    '𝔽𝕒𝕤𝕙𝕚𝕠𝕟',
+    'ℙ𝕙𝕠𝕥𝕠𝕘𝕣𝕒𝕡𝕙𝕪',
+    '𝔻𝕖𝕤𝕚𝕘𝕟',
+    '𝔹𝕠𝕠𝕜𝕤',
+    '𝔸𝕣𝕥',
+    '𝕊𝕡𝕠𝕣𝕥𝕤',
+    '𝔼𝕩𝕡𝕝𝕠𝕣𝕚𝕟𝕘','𝕮𝖗𝖊𝖆𝖙𝖎𝖛𝖊','𝕻𝖍𝖔𝖙𝖔𝖌𝖗𝖆𝖕𝖍𝖞','𝕯𝖊𝖘𝖎𝖌𝖓','𝖆𝖗𝖙','𝖛𝖎𝖓𝖙𝖆𝖌𝖊','𝖒𝖚𝖘𝖎𝖈','𝖙𝖊𝖈𝖍','𝖌𝖗𝖆𝖕𝖍𝖎𝖈𝖘','𝖉𝖊𝖘𝖎𝖌𝖓','𝖇𝖔𝖔𝖐𝖘','𝖈𝖔𝖉𝖎𝖓𝖌','𝖋𝖆𝖘𝖍𝖎𝖔𝖓','𝖕𝖍𝖔𝖙𝖔𝖌𝖗𝖆𝖕𝖍𝖞','𝖉𝖊𝖘𝖎𝖌𝖓','𝖇𝖔𝖔𝖐𝖘','𝖆𝖗𝖙','𝖘𝖕𝖔𝖗𝖙𝖘','𝖊𝖝𝖕𝖑𝖔𝖗𝖎𝖓𝖌','𝖌𝖆𝖒𝖎𝖓𝖌','𝖘𝖐𝖊𝖙𝖈𝖍','𝖉𝖆𝖓𝖈𝖊','𝖕𝖍𝖔𝖙𝖔𝖌𝖗𝖆𝖕𝖍𝖞','𝖉𝖊𝖘𝖎𝖌𝖓','𝖇𝖔𝖔𝖐𝖘','𝖆𝖗𝖙','𝖘𝖕𝖔𝖗𝖙𝖘','𝖊𝖝𝖕𝖑𝖔𝖗𝖎𝖓𝖌','𝖌𝖆𝖒𝖎𝖓𝖌','𝖘𝖐𝖊𝖙𝖈𝖍','𝖉𝖆𝖓𝖈𝖊','𝖕𝖍𝖔𝖙𝖔𝖌𝖗𝖆𝖕𝖍𝖞','𝖉𝖊𝖘𝖎𝖌𝖓','𝖇𝖔𝖔𝖐𝖘',
+    'ℂ𝕠𝕕𝕚𝕟𝕘','𝓒𝓻𝓮𝓪𝓽𝓲𝓿𝓲𝓽𝔂','𝓟𝓱𝓸𝓽𝓸𝓰𝓻𝓪𝓹𝓱𝔂','𝓓𝓮𝓼𝓲𝓰𝓷','𝓪𝓻𝓽','𝓿𝓲𝓷𝓽𝓪𝓰𝓮','𝓶𝓾𝓼𝓲𝓬','𝓽𝓮𝓬𝓱','𝓰𝓻𝓪𝓹𝓱𝓲𝓬𝓼','𝓭𝓮𝓼𝓲𝓰𝓷','𝓫𝓸𝓸𝓴𝓼','𝓬𝓸𝓭𝓲𝓷𝓰','𝓯𝓪𝓼𝓱𝓲𝓸𝓷','𝓹𝓱𝓸𝓽𝓸𝓰𝓻𝓪𝓹𝓱𝔂','𝓭𝓮𝓼𝓲𝓰𝓷','𝓫𝓸𝓸𝓴𝓼','𝓪𝓻𝓽','𝓼𝓹𝓸𝓻𝓽𝓼','𝓮𝔁𝓹𝓵𝓸𝓻𝓲𝓷𝓰','𝓰𝓪𝓶𝓲𝓷𝓰','𝓼𝓴𝓮𝓽𝓬𝓱','𝓭𝓪𝓷𝓬𝓮','𝓹𝓱𝓸𝓽𝓸𝓰𝓻𝓪𝓹𝓱𝔂','𝓭𝓮𝓼𝓲𝓰𝓷','𝓫𝓸𝓸𝓴𝓼','𝓪𝓻𝓽','𝓼𝓹𝓸𝓻𝓽𝓼','𝓮𝔁𝓹𝓵𝓸𝓻𝓲𝓷𝓰','𝓰𝓪𝓶𝓲𝓷𝓰','𝓼𝓴𝓮𝓽𝓬𝓱','𝓭𝓪𝓷𝓬𝓮','𝓹𝓱𝓸𝓽𝓸𝓰𝓻𝓪𝓹𝓱𝔂','𝓭𝓮𝓼𝓲𝓰𝓷',
+    '𝔽𝕒𝕤𝕙𝕚𝕠𝕟','ℙ𝕙𝕠𝕥𝕠𝕘𝕣𝕒𝕡𝕙𝕪','Travel', 'Adventure', 'Wanderlust', 'Exploration', 'Photography', 'Nature Lover', 'Fitness', 'Yoga',
+             'Fashion', 'Foodie', 'Coffee Lover', 'Bookworm', 'Music Lover', 'Art Lover', 'Gaming', 'Tech Enthusiast',
+             'Entrepreneur', 'Dreamer', 'Motivation', 'Inspiration', 'Blogger', 'Influencer', 'Film Lover', 'Pet Lover',
+             'Plant Parent', 'Self-care', 'Beauty', 'Beach Life', 'Sports Fanatic', 'DIY Enthusiast', 'Food Blogger',
+             'Vegan', 'Vegetarian', 'Sustainability', 'Vintage Lover', 'Minimalist', 'Interior Design', 'Gardening',
+             'Fitness Junkie', 'Wellness', 'Hiking', 'Cycling', 'Dog Lover', 'Cat Lover', 'Fashionista', 'Makeup Lover',
+             'Artisan', 'Creative', 'Film Maker', 'Poet', 'Dancer', 'Fitness Coach', 'Freelancer', 'Globe Trotter',
+             'Food Critic', 'Social Activist', 'Podcast Enthusiast', 'Astronomy', 'Philosophy', 'Food Stylist',
+             'Street Art', 'Cooking', 'Science Geek', 'Meditation', 'Vintage Collector', 'DIY Crafts', 'Volunteer',
+             'Language Learner', 'Historian', 'Architect', 'Graphic Designer', 'Surfer', 'Skateboarder', 'Gamer',
+             'Fashion Designer', 'Music Producer', 'Singer', 'Songwriter', 'Startup', 'Productivity', 'Fashion Stylist']
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+    emojis = ['✨', '🌟', '🎨', '🌈', '✈️', '📷','🌟', '✨', '💫', '🔥', '🌈', '🌸', '🌺', '🌹', '🌼', '🌻', '🌿', '🌱', '🌴', '🍀', '🍁', '🍃', '🌍', '🌎', '🌏',
+          '🌞', '🌝', '🌛', '🌜', '🌚', '🌙', '⭐', '🌟', '✨', '💥', '✌️', '✋', '👌', '👍', '🙌', '👐', '🙏', '🤞', '🤘', '🤙',
+          '👊', '✊', '💪', '💃', '🕺', '👯', '👫', '💑', '👭', '👬', '💕', '💖', '💗', '💘', '💝', '💞', '💟', '💌', '💍', '💎',
+          '👑', '🌹', '🌺', '🌷', '🌼', '🌸', '🌻', '🌞', '🌈', '🌟', '⚡️', '🔥', '💥', '❄️', '💧', '🌊', '🎶', '🎵', '🎉', '🎈',
+          '🎁', '🎀', '🎂', '🍰', '🍭', '🍬', '🍩', '🍪', '🍫', '🍦', '🍨', '🍧', '🍡', '🍿', '🍔', '🍟', '🍕', '🍣', '🍱', '🍛',
+          '🍜', '🍝', '🍤', '🍗', '🍖', '🍦', '', '🍪', '🍫', '🍮', '🍯', '🍎', '🍓', '🍇', '🍉', '🍌', '🍒', '🍍', '🍑', '🍐',
+          '🍏', '🍋', '🍊', '🍈', '🍆', '🌽', '🍄', '🌰', '🍞', '🧀', '🍖', '🍗', '🍔', '🍟', '🍕', '🌭', '🌮', '🌯', '🍳', '🍲',
+          '🍿', '🍱', '🍘', '🍙', '🍚', '🍛', '🍜', '🍝', '🍠', '🍢', '🍣', '🍤', '🍥']
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+    dob_styles = [
+    '🌟 Born at  ',
+    '✨ Came to Earth at ',
+    '💫 Arrived on ',
+    '🔥 Landed on ',
+    '🌈 Cake cut at  ',
+    '🌸 Joined this world at  ',
+    '🌺 Celebration on ',
+    '🌹 Born at ',
+    '🌼 Came into existence at ',
+    '🌻 Entered the world on  ',
+    '🌿 Joined the journey at ',
+    '🌱 Arrival on  ',
+    '🌴 Stepped in at  ',
+    '🍀 Came into this world at ',
+    '🍁 Arrived at  ',
+    '🍃 Cake cut on  '
+]
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+    adjective_1 = random.choice(adjectives)
+    adjective_2 = random.choice(adjectives)
+    adjective_3 = random.choice(adjectives)
+    adjective_4 = random.choice(adjectives)
+    adjective_5 = random.choice(adjectives)
+    adjective_6 = random.choice(adjectives)
+    adjective_7 = random.choice(adjectives)
+    emoji_1 = random.choice(emojis)
+    emoji_2 = random.choice(emojis)
+    emoji_3 = random.choice(emojis)
+    emoji_4 = random.choice(emojis)
+    emoji_5 = random.choice(emojis)
+    emoji_6 = random.choice(emojis)
+    emoji_7 = random.choice(emojis)
+    emoji_8 = random.choice(emojis)
+    emoji_9 = random.choice(emojis)
+    emoji_10 = random.choice(emojis)
+    emoji_11 = random.choice(emojis)
+    emoji_12 = random.choice(emojis)
+    dob = str(input("Enter when you first cry : "))
+    dob_styles_1 = random.choice(dob_styles)
 
-# Translations
-*.mo
-*.pot
+    
+    # Format the bio
+    bio = f"Hey, I'm {name}\nbut you can call me {nickname}! {emoji_3}\n"
+    bio += f"{emoji_4} {adjective_1} {emoji_10}\n {emoji_1} {adjective_2} {emoji_11}\n {emoji_5} {adjective_3} {emoji_12} \n {emoji_6} {adjective_4}  {emoji_7} \n {emoji_8} {adjective_5} {emoji_1} \n {emoji_9} {adjective_6} {emoji_2} \n {dob_styles_1}{dob} {emoji_4}  "
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+    # bio += ', '.join(interests)
+    
+    return bio
 
-# Flask stuff:
-instance/
-.webassets-cache
+def main():
+    print("\n Welcome to the Stylish Instagram Bio Generator!\n")
+    print("----------------------------------------------")
+    
+    name = input("Enter your name: ")
+    nickname = input("Enter your nickname: ")
 
-# Scrapy stuff:
-.scrapy
+    
+    # interests = []
+    # num_interests = int(input("How many interests do you have? : "))
+    # for i in range(num_interests):
+    #     interest = input(f"Enter interest #{i+1}: ")
+    #     interests.append(interest)
+ 
+    bio = generate_instagram_bio(name ,nickname)
+    
+     
+    print("\n Your stylish Instagram bio:\n")
+    print(bio,'\n')
 
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
-
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/#use-with-ide
-.pdm.toml
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+if __name__ == '__main__':
+    main()
